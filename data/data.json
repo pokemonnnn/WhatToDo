@@ -1,0 +1,29 @@
+[
+    {
+        "username": "pokemon",
+        "password": "hello",
+        "content": [
+            {
+                "title": "Tugas",
+                "date": "12-12-2020",
+                "status": "progress",
+                "color": "blue",
+                "task": "Ngerjain tugas IPA, IPS, MTK, Bahasa Inggris"
+            },
+            {
+                "title": "Tugas",
+                "date": "12-12-2020",
+                "status": "progress",
+                "color": "blue",
+                "task": "Ngerjain tugas IPA, IPS, MTK, Bahasa Inggris"
+            },
+            {
+                "title": "Tugas",
+                "date": "12-12-2020",
+                "status": "progress",
+                "color": "blue",
+                "task": "Ngerjain tugas IPA, IPS, MTK, Bahasa Inggris"
+            }
+        ]
+    }
+]

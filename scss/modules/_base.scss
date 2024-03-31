@@ -1,0 +1,19 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #eee;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container-content {
+    min-height: 90dvh;
+    // background-color: $main-color;
+}

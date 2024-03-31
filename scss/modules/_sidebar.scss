@@ -1,0 +1,59 @@
+.sidebar {
+    @include flex-box(column, center, start);
+    top: 30dvh;
+    gap: 20px;
+    padding: 20px 10px;
+    width: 50px;
+    position: fixed;
+    left: 15px;
+    background-color: $main-color;
+    border-radius: 50px;
+    overflow-x: hidden;
+    transition: width 0.5s ease-in-out, border-radius 1.3s ease-in-out;
+    a {
+        @include flex-box(row, center, center);
+        .containerButton {
+            background-color: $secondary-color;
+            padding: 8px;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            transition: 0.3s ease-in-out;
+            svg {
+                fill: $main-color;
+                width: 100%;
+                g {
+                    path {
+                        stroke: $main-color;
+                    }
+                }
+            }
+        }
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: $secondary-color;
+        font-weight: 600;
+
+        span {
+            margin-left: 30px;
+            transition: 0.5s ease-in-out;
+        }
+
+        &:hover,
+        &:active {
+            .containerButton {
+                background-color: darken($secondary-color, 10%);
+            }
+            span {
+                color: darken($secondary-color, 10%);
+            }
+        }
+    }
+
+    &:hover {
+        width: 150px;
+        border-radius: 20px;
+        span {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@mixin flex-box($dir, $space, $align) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $space;
+    align-items: $align;
+}
+
+@mixin profilePic($size) {
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+}

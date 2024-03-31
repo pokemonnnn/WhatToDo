@@ -1,0 +1,5 @@
+footer {
+    background-color: $main-color;
+    padding: 20px;
+    @include flex-box(row, space-between, center);
+}
