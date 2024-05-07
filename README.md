@@ -1,1 +1,4 @@
-Todolist website using ejs, sass, node js, and json to store the data
+- need to add route to add list
+- need to add route to done list
+- redesign the website
+- need to give the responsiveness
