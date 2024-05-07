@@ -2,6 +2,7 @@
     {
         "username": "pokemon",
         "password": "hello",
+        "pic": "/img/lanaCover.jpg",
         "content": [
             {
                 "title": "Tugas",
@@ -11,14 +12,14 @@
                 "task": "Ngerjain tugas IPA, IPS, MTK, Bahasa Inggris"
             },
             {
-                "title": "Tugas",
+                "title": "Ngopi",
                 "date": "12-12-2020",
                 "status": "progress",
                 "color": "blue",
-                "task": "Ngerjain tugas IPA, IPS, MTK, Bahasa Inggris"
+                "task": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus et porro quo ea nobis facere praesentium omnis in fugit nam cumque, possimus, aperiam repellat? Vitae expedita laboriosam soluta tenetur voluptates qui ipsa dolorum. Vero tempore, in consequatur amet repudiandae ipsa eveniet quisquam impedit, ratione magnam maiores cum nemo fugiat repellat quas consequuntur quis accusamus est? Magni voluptas qui beatae dicta vitae impedit numquam iste voluptatem at? Quisquam nemo qui distinctio ipsum nisi sapiente, nulla, temporibus soluta maxime doloribus ullam voluptatum omnis? Explicabo provident harum illo ipsa aut sit ratione totam, magni fugit suscipit iste corporis quasi atque! Sed, minima possimus."
             },
             {
-                "title": "Tugas",
+                "title": "Tidur",
                 "date": "12-12-2020",
                 "status": "progress",
                 "color": "blue",

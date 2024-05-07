@@ -1,24 +1,25 @@
 <!-- <h1>HI Selamat Malam</h1> -->
 <div class="container">
-    <% if (users.length === 0) { %>
+    <% if (!user) { %>
         <h1>Tidak ada User</h1>
     <% } else { %>
         <div class="greeting">
-            <h1>Selamat Malam <%= users[0].username %>, Bagaimana Harimu tadi?</h1>
+            <h1><%= letter %></h1>
         </div>
-        <div class="list">
-            <% users.forEach((user) => { %>
-                    <% if (user.content.length === 0) { %>
-                        <h1>Tidak ada tugas untuk user ini</h1>
-                    <% } else { %>
-                        <% user.content.forEach((task) => { %>
+        <h1 class="header">Task List</h1>
+        <div class="list"> 
+            <% if (user.content.length === 0) { %>
+                <h1>Tidak ada tugas untuk user ini</h1>
+            <% } else { %>
+                <% user.content.forEach((task) => { %>
+                    <a href="/<%= task.title %>">
                         <div class="box">
                             <h1><%= task.title %></h1>
                             <p><%= task.task %></p>
                         </div>
-                            <% }) %>
-                    <% } %>
-            <% }) %>
+                    </a>
+                <% }) %>
+            <% } %>
         </div>
     <% } %>
 </div>

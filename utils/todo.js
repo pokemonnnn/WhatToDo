@@ -17,6 +17,21 @@ const loadTasks = () => {
     return tasks;
 };
 
+const findTask = (task) => {
+    const tasks = loadTasks();
+    const foundTask = tasks.find((e) => e.title === task.title);
+};
+
+//Auth
+const check = (user, pw) => {
+    const users = loadTasks();
+    const findUser = users.find((e) => user === e.username && pw === e.password);
+
+    return findUser;
+};
+
 module.exports = {
     loadTasks,
+    findTask,
+    check,
 };
